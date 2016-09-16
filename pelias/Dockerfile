@@ -2,7 +2,7 @@ FROM node:0.12.13
 MAINTAINER Jan Nonnen <helvalius@gmail.com>
 
 # Define the OSM argument, use monaco as default
-ARG OSM=http://download.geofabrik.de/europe/monaco-latest.osm.pbf
+ARG OSM=http://download.geofabrik.de/north-america-latest.osm.pbf
 
 # Auxiliary folders
 RUN mkdir -p /mnt/data/openstreetmap \
